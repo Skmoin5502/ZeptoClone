@@ -57,7 +57,7 @@ class HomePage extends StatelessWidget {
                 margin: EdgeInsets.all(8),
                 child: Image.asset(
                   'assets/images/horizontal_image.jpg',
-                  height: 140, // Adjust height as needed
+                  height: 140,
                   fit: BoxFit.cover,
                 ),
               ),
@@ -88,7 +88,7 @@ class HomePage extends StatelessWidget {
                     children: [
                       Image.asset(
                         'assets/images/mango.jpg',
-                        height: 90, // Adjust height as needed
+                        height: 90,
                       ),
                       Text(
                         'Mango Alphonso ₹ 100',
@@ -101,8 +101,7 @@ class HomePage extends StatelessWidget {
                         ),
                         child: InkWell(
                           onTap: () {
-                            // Add to cart logic
-                            // You can add animation logic here
+                      
                           },
                           child: Ink(
                             decoration: BoxDecoration(
@@ -130,7 +129,7 @@ class HomePage extends StatelessWidget {
                     children: [
                       Image.asset(
                         'assets/images/amulmilk.webp',
-                        height: 90, // Adjust height as needed
+                        height: 90, 
                       ),
 
                       Text(
@@ -144,8 +143,7 @@ class HomePage extends StatelessWidget {
                         ),
                         child: InkWell(
                           onTap: () {
-                            // Add to cart logic
-                            // You can add animation logic here
+                        
                           },
                           child: Ink(
                             decoration: BoxDecoration(
@@ -172,7 +170,7 @@ class HomePage extends StatelessWidget {
                     children: [
                       Image.asset(
                         'assets/images/amulbutter500gm.webp',
-                        height: 90, // Adjust height as needed
+                        height: 90, 
                       ),
 
                       Text(
@@ -186,8 +184,7 @@ class HomePage extends StatelessWidget {
                         ),
                         child: InkWell(
                           onTap: () {
-                            // Add to cart logic
-                            // You can add animation logic here
+                   
                           },
                           child: Ink(
                             decoration: BoxDecoration(
@@ -226,7 +223,7 @@ class HomePage extends StatelessWidget {
                     children: [
                       Image.asset(
                         'assets/images/tendercoconut.webp',
-                        height: 90, // Adjust height as needed
+                        height: 90, 
                       ),
 
                       Text(
@@ -241,8 +238,7 @@ class HomePage extends StatelessWidget {
                         child: InkWell(
                           onTap: () {
 
-                            // Add to cart logic
-                            // You can add animation logic here
+                            
                           },
                           child: Ink(
                             decoration: BoxDecoration(
@@ -269,7 +265,7 @@ class HomePage extends StatelessWidget {
                     children: [
                       Image.asset(
                         'assets/images/amulbutter100g.webp',
-                        height: 90, // Adjust height as needed
+                        height: 90, 
                       ),
 
                       Text(
@@ -283,8 +279,7 @@ class HomePage extends StatelessWidget {
                         ),
                         child: InkWell(
                           onTap: () {
-                            // Add to cart logic
-                            // You can add animation logic here
+                          
                           },
                           child: Ink(
                             decoration: BoxDecoration(
@@ -311,7 +306,7 @@ class HomePage extends StatelessWidget {
                     children: [
                       Image.asset(
                         'assets/images/amuldahi.jpg',
-                        height: 90, // Adjust height as needed
+                        height: 90, 
                       ),
 
                       Text(
@@ -326,8 +321,7 @@ class HomePage extends StatelessWidget {
                         child: InkWell(
                           onTap: () {
 
-                            // Add to cart logic
-                            // You can add animation logic here
+                         
                           },
                           child: Ink(
                             decoration: BoxDecoration(
