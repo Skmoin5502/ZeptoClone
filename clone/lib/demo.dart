@@ -28,7 +28,10 @@ class DemoPage extends StatelessWidget {
         ],
         onTap: (index) {
           if (index == 0) { 
-            Navigator.popUntil(context, ModalRoute.withName('/')); // Navigate back to HomePage
+            Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(builder: (context) => DemoPage()),
+    );
           }
         },
       ),
